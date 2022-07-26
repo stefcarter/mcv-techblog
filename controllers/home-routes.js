@@ -11,4 +11,14 @@ router.get('/', async (req, res) => {
     }
 });
 
+// router.get('/home', async (req, res) => {
+//     try {
+//         let homePage = await User.findAll({
+//         });
+//         res.render('home', {homePage});
+//     } catch(error) {
+//         res.status(404).send("Oops, mongoose ate my homeowork")
+//     }
+// });
+
 module.exports = router;
