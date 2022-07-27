@@ -13,5 +13,29 @@ body {
 }
 
 header {
-    background-color: blue;
+    background-color: rgb(87, 50, 3);
 }
+
+nav {
+    padding: 10px;
+    line-height: 1.25;
+    float: top;
+}
+
+nav a{
+    color: white;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+header h1{
+    font-size: 3rem;
+    background-color: rgb(201, 187, 170);
+    color:  rgb(87, 50, 3);
+    padding: 0 10px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 6px 5px; color: white;
+    margin-left: 30px;
+}
+
