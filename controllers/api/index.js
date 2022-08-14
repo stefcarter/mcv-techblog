@@ -1,15 +1,11 @@
 const router = require('express').Router();
-const { User } = require('../../models');
-const bcrypt = require('bcrypt');
-const session = require('express-session');
+const userRoutes = require('./user-routes');
+const commentRoutes = require('./comment-routes');
+const postRoutes = require('./post-routes');
+const { route } = require('../home-routes');
 
-router.get('/', async (req, res) => {
-    try {
-        let homePage = await User.findAll({});
-        res.render('home', {homePage});
-    } catch(error) {
-        res.status(404).send("Big error.")
-    }
-});
+router.use('/users', userRoutes);
+router.use('/comments', commentRoutes);
+router.use('/posts', postRoutes);
 
 module.exports = router;
