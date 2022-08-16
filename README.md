@@ -35,7 +35,10 @@ Technical Acceptance Criteria: 40%
 * Repository contains multiple descriptive commit messages.
 * Repository contains quality readme file with description, screenshot, and link to deployed application.
 
-## Review
+### Review
 You are required to submit BOTH of the following for review:
 * The URL of the functional, deployed application.
 * The URL of the GitHub repository, with a unique name and a readme describing the project.
+
+### Screenshot
+![Login-Screen](./public/images/mvctech.jpg)
